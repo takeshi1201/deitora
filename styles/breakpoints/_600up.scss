@@ -1,0 +1,92 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+.util-bgcolor1 {
+  height: 368px;
+}
+.font-ssss {
+  font-size: 10px;
+}
+
+.top {
+  &__wrap {
+    transform: translateY(80%);
+  }
+
+  &-contact {
+    text-align: left;
+  }
+}
+
+.news {
+  &__list {
+    &-link {
+      width: calc(100% - 13px);
+    }
+  }
+}
+
+
+.service {
+
+  &__bgcolor {
+    height: 309px;
+  }
+
+  &__wrap {
+    width: 540px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-item {
+      width: 150px;
+      padding: 0 5px;
+      & img {
+        margin-top: 0;
+      }
+      & p {
+        @extend .font-ssss;
+      }
+    }
+  }
+}
+
+.results {
+  margin-top: 15vh;
+
+  & .swiper-container {
+    & .swiper-slide {
+      margin-right: 13px;
+      & img {
+        width: 274px;
+        height: 171px;
+      }
+    }
+  }
+}
+.contact {
+  &__wrap {
+    width: 540px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    &-text {
+      text-align: center;
+    }
+  }
+
+  &__content {
+    padding: 40px 20px;
+  }
+}
+
+  
