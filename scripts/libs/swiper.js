@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper-container', {
   },
   // centeredSlides: true,
   loop:true,
-  slidesPerView: 3,
+  slidesPerView: 4,
   breakpoints: {
     375: {
       slidesPerView: 1.3,
@@ -23,17 +23,10 @@ const swiper = new Swiper('.swiper-container', {
     960: {
       slidesPerView: 3,
     },
-  },
-
-  // slidesPerView: 2,
-  // breakpoints: {
-  //  600: {
-  //   slidesPerView: 2,
-  //   },
-  //   768: {
-  //     slidesPerView: 2.5,
-  //   }
-  // },
+    1280: {
+      slidesPerView: 4,
+    }
+  }
 
   // slidesPerView: 3,
   // breakpoints: {

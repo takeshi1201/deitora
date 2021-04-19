@@ -388,6 +388,7 @@ label {
 
 .top-img {
   background-image: url(../../images/PC/mv.png);
+  background-size: cover;
   background-position: left;
   width: 100%;
   height: 648px;
@@ -714,6 +715,7 @@ label {
 =========================================================*/
 .qa {
   background-image: url(../../images/PC/qa-bg.png);
+  background-size: cover;
   height: 821px;
   background-position: center;
 }
@@ -836,6 +838,7 @@ label {
 =========================================================*/
 .contact {
   background-image: url(../../images/PC/contact-bg.png);
+  background-size: cover;
 }
 
 .contact__inner {
@@ -1344,6 +1347,38 @@ Stylesheet: 960px以上のモニタで適用
 Stylesheet: 1280px以上のモニタで適用
 
 ******************************************************************/
+  .top-img {
+    background-position: cover;
+  }
+  .service__wrap {
+    width: 960px;
+    max-width: 1280px;
+  }
+  .service__list-item {
+    width: 250px;
+  }
+  .comments__right img {
+    width: 100%;
+  }
+  .results__bgcolor {
+    margin-left: 0px;
+  }
+  .price__table {
+    width: 960px;
+    max-width: 1280px;
+  }
+  .price__table table {
+    width: 960px;
+    max-width: 1280px;
+  }
+  .contact__wrap {
+    width: 960px;
+    max-width: 1280px;
+  }
+  .footer__inner {
+    width: 960px;
+    max-width: 1280px;
+  }
 }
 
 @media (min-resolution: 192dpi) {
